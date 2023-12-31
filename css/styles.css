@@ -360,6 +360,7 @@ margin-bottom: 16px;
 
 .footer-logo-item {
    color: #f4f4fd;
+   display: inline-block;
 }
 .footer-text {
     color: #F4F4FD;
