@@ -2,7 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    max-width: 1158px;
+    max-width: 1440px;
     width: 100%;
 }
 a {
@@ -17,9 +17,11 @@ ul {
 p, h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: 0;
+    
 }
 img {
     display: block;
+    max-width: 100%;
 }
 button {
     cursor: pointer;
@@ -41,8 +43,7 @@ address {
     overflow: hidden;
     }
     .container {
-        max-width: 1158px;
-        padding: 0 15px;
+        padding: 0;
         margin: 0 auto;
       } 
 
@@ -56,6 +57,10 @@ address {
 .header-container {
     display: flex;
     align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 156px;
+    margin-right: 156px;
 }
 
 .header-navigation {
@@ -188,6 +193,8 @@ address {
 }
 .features-container {
     display: flex;
+    margin-left: 156px;
+    margin-right: 156px;
     
 }
     .features-list {
@@ -222,6 +229,8 @@ letter-spacing: 0.02em;
         padding: 120px 0;
     }
 .team-container {
+    margin-left: 156px;
+    margin-right: 156px;
     
 }
     .team-title {
@@ -253,7 +262,6 @@ width: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;
 background: var(--WHITE, #FFF);
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    
 }
 
 .team-container-item {
@@ -261,6 +269,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }    
 
     .team-img {
+    
     }
     .team-subtitle {
         color: #2E2F42;
@@ -287,7 +296,8 @@ letter-spacing: 0.02em;
     display: flex;
     flex-direction: column;
     align-content: center;
-    padding: 120px 0;
+    margin-left: 156px;
+    margin-right: 156px;
 }
 .portfolio-title {
     color: #2E2F42;
@@ -301,7 +311,6 @@ margin-bottom: 72px;
 }
 .portfolio-list{
     display: flex;
-    padding-bottom: 120px;
     padding-left: 0;
 flex-wrap: wrap;
 gap: 48px 24px;
@@ -344,6 +353,7 @@ border-top: none;
 .footer-container {
     flex-direction: column;
     margin: 0 auto;
+    margin-left: 156px;
 }
 .footer-logo-link {
     color: #4d5ae5;
