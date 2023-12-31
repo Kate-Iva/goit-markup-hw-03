@@ -57,7 +57,8 @@ address {
 .header-container {
     display: flex;
     align-items: center;
-    padding: 0;
+    width: 1158px; 
+    padding: 0 15px;
     margin: 0;
     margin-left: 156px;
     margin-right: 156px;
