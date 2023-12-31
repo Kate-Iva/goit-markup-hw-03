@@ -342,7 +342,6 @@ border-top: none;
     padding: 100px 0;
 }
 .footer-container {
-    display: flex;
     flex-direction: column;
     margin: 0 auto;
 }
